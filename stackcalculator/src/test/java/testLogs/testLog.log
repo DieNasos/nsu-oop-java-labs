@@ -1,0 +1,31 @@
+2020-03-27 16:11:01 INFO  Define:16 - Define > execute > BEGIN
+2020-03-27 16:11:01 INFO  Define:32 - Define > execute > variableName = variable
+2020-03-27 16:11:01 INFO  Define:33 - Define > execute > variableValueStr = 5.0
+2020-03-27 16:11:01 INFO  Define:43 - Define > execute > END
+2020-03-27 16:11:01 INFO  TestDefine:28 - TestDefine > test > works correct :: expected: 5.0, actual: 5.0
+2020-03-27 16:11:06 INFO  Div:19 - Div > execute > BEGIN
+2020-03-27 16:11:06 INFO  Div:44 - Div > execute > operation result: 5.0 / 5.0 = 1.0
+2020-03-27 16:11:06 INFO  Div:48 - Div > execute > END
+2020-03-27 16:11:06 INFO  TestDiv:32 - TestDiv > test > works correct :: expected: 1.0, actual: 1.0
+2020-03-27 16:11:11 INFO  Minus:19 - Minus > execute > BEGIN
+2020-03-27 16:11:11 INFO  Minus:39 - Minus > execute > operation result: 5.0 - 5.0 = 0.0
+2020-03-27 16:11:11 INFO  Minus:43 - Minus > execute > END
+2020-03-27 16:11:11 INFO  TestMinus:32 - TestMinus > test > works correct :: expected: 0.0, actual: 0.0
+2020-03-27 16:11:16 INFO  Mult:19 - Mult > execute > BEGIN
+2020-03-27 16:11:16 INFO  Mult:39 - Mult > execute > operation result: 5.0 * 5.0 = 25.0
+2020-03-27 16:11:16 INFO  Mult:43 - Mult > execute > END
+2020-03-27 16:11:16 INFO  TestMult:32 - TestMult > test > works correct :: expected: 25.0, actual: 25.0
+2020-03-27 16:11:21 INFO  Plus:19 - Plus > execute > BEGIN
+2020-03-27 16:11:21 INFO  Plus:39 - Plus > execute > operation result: 5.0 + 5.0 = 10.0
+2020-03-27 16:11:21 INFO  Plus:43 - Plus > execute > END
+2020-03-27 16:11:21 INFO  TestPlus:32 - TestPlus > test > works correct :: expected: 10.0, actual: 10.0
+2020-03-27 16:11:26 INFO  Pop:18 - Pop > execute > BEGIN
+2020-03-27 16:11:26 INFO  Pop:28 - Pop > execute > END
+2020-03-27 16:11:26 INFO  TestPop:32 - TestPop > test > works correct :: expected: 5.0, actual: 5.0
+2020-03-27 16:11:30 INFO  Push:18 - Push > execute > BEGIN
+2020-03-27 16:11:30 INFO  Push:28 - Push > execute > END
+2020-03-27 16:11:30 INFO  TestPush:30 - TestPush > test > works correct :: expected: 5.0, actual: 5.0
+2020-03-27 16:11:35 INFO  Sqrt:19 - Sqrt > execute > BEGIN
+2020-03-27 16:11:35 INFO  Sqrt:44 - Sqrt > execute > operation result: SQRT(25.0) = 5.0
+2020-03-27 16:11:35 INFO  Sqrt:48 - Sqrt > execute > END
+2020-03-27 16:11:35 INFO  TestSqrt:30 - TestSqrt > test > works correct :: expected: 5.0, actual: 5.0

@@ -1,0 +1,177 @@
+2020-03-27 16:09:43 INFO  Main:10 - Main > main > BEGIN
+2020-03-27 16:09:43 INFO  Main:13 - Main > main > creating new Calculator
+2020-03-27 16:09:43 INFO  Calculator:21 - Calculator > Calculator > BEGIN
+2020-03-27 16:09:43 INFO  Calculator:24 - Calculator > Calculator > END
+2020-03-27 16:09:43 INFO  Main:15 - Main > main > new Calculator was created
+2020-03-27 16:09:43 INFO  Calculator:60 - Calculator > calculate > BEGIN
+2020-03-27 16:09:43 INFO  Calculator:28 - Calculator > executeCommand > BEGIN :: commandLine = // SQRT(5 * (72 / 24 - 2))
+2020-03-27 16:09:43 INFO  Calculator:39 - Calculator > executeCommand > commandName = //
+2020-03-27 16:09:43 INFO  Calculator:47 - Calculator > executeCommand > commandParameters = SQRT(5 * (72 / 24 - 2))
+2020-03-27 16:09:43 INFO  Calculator:49 - Calculator > executeCommand > creating new '//' command
+2020-03-27 16:09:43 INFO  CommandFactory:51 - CommandFactory > createCommand > BEGIN
+2020-03-27 16:09:43 INFO  CommandFactory:60 - CommandFactory > createCommand > commandClassName = org.belog.stackcalculator.commandfactory.commands.Comment
+2020-03-27 16:09:43 INFO  CommandFactory:66 - CommandFactory > createCommand > END :: returning command
+2020-03-27 16:09:43 INFO  Calculator:51 - Calculator > executeCommand > new '//' command was created
+2020-03-27 16:09:43 INFO  Calculator:55 - Calculator > executeCommand > END
+2020-03-27 16:09:43 INFO  Calculator:28 - Calculator > executeCommand > BEGIN :: commandLine = DEFINE a 5
+2020-03-27 16:09:43 INFO  Calculator:39 - Calculator > executeCommand > commandName = DEFINE
+2020-03-27 16:09:43 INFO  Calculator:47 - Calculator > executeCommand > commandParameters = a 5
+2020-03-27 16:09:43 INFO  Calculator:49 - Calculator > executeCommand > creating new 'DEFINE' command
+2020-03-27 16:09:43 INFO  CommandFactory:51 - CommandFactory > createCommand > BEGIN
+2020-03-27 16:09:43 INFO  CommandFactory:60 - CommandFactory > createCommand > commandClassName = org.belog.stackcalculator.commandfactory.commands.Define
+2020-03-27 16:09:43 INFO  CommandFactory:66 - CommandFactory > createCommand > END :: returning command
+2020-03-27 16:09:43 INFO  Calculator:51 - Calculator > executeCommand > new 'DEFINE' command was created
+2020-03-27 16:09:43 INFO  Define:16 - Define > execute > BEGIN
+2020-03-27 16:09:43 INFO  Define:32 - Define > execute > variableName = a
+2020-03-27 16:09:43 INFO  Define:33 - Define > execute > variableValueStr = 5
+2020-03-27 16:09:43 INFO  Define:43 - Define > execute > END
+2020-03-27 16:09:43 INFO  Calculator:55 - Calculator > executeCommand > END
+2020-03-27 16:09:43 INFO  Calculator:28 - Calculator > executeCommand > BEGIN :: commandLine = DEFINE b 72
+2020-03-27 16:09:43 INFO  Calculator:39 - Calculator > executeCommand > commandName = DEFINE
+2020-03-27 16:09:43 INFO  Calculator:47 - Calculator > executeCommand > commandParameters = b 72
+2020-03-27 16:09:43 INFO  Calculator:49 - Calculator > executeCommand > creating new 'DEFINE' command
+2020-03-27 16:09:43 INFO  CommandFactory:51 - CommandFactory > createCommand > BEGIN
+2020-03-27 16:09:43 INFO  CommandFactory:60 - CommandFactory > createCommand > commandClassName = org.belog.stackcalculator.commandfactory.commands.Define
+2020-03-27 16:09:43 INFO  CommandFactory:66 - CommandFactory > createCommand > END :: returning command
+2020-03-27 16:09:43 INFO  Calculator:51 - Calculator > executeCommand > new 'DEFINE' command was created
+2020-03-27 16:09:43 INFO  Define:16 - Define > execute > BEGIN
+2020-03-27 16:09:43 INFO  Define:32 - Define > execute > variableName = b
+2020-03-27 16:09:43 INFO  Define:33 - Define > execute > variableValueStr = 72
+2020-03-27 16:09:43 INFO  Define:43 - Define > execute > END
+2020-03-27 16:09:43 INFO  Calculator:55 - Calculator > executeCommand > END
+2020-03-27 16:09:43 INFO  Calculator:28 - Calculator > executeCommand > BEGIN :: commandLine = DEFINE c 24
+2020-03-27 16:09:43 INFO  Calculator:39 - Calculator > executeCommand > commandName = DEFINE
+2020-03-27 16:09:43 INFO  Calculator:47 - Calculator > executeCommand > commandParameters = c 24
+2020-03-27 16:09:43 INFO  Calculator:49 - Calculator > executeCommand > creating new 'DEFINE' command
+2020-03-27 16:09:43 INFO  CommandFactory:51 - CommandFactory > createCommand > BEGIN
+2020-03-27 16:09:43 INFO  CommandFactory:60 - CommandFactory > createCommand > commandClassName = org.belog.stackcalculator.commandfactory.commands.Define
+2020-03-27 16:09:43 INFO  CommandFactory:66 - CommandFactory > createCommand > END :: returning command
+2020-03-27 16:09:43 INFO  Calculator:51 - Calculator > executeCommand > new 'DEFINE' command was created
+2020-03-27 16:09:43 INFO  Define:16 - Define > execute > BEGIN
+2020-03-27 16:09:43 INFO  Define:32 - Define > execute > variableName = c
+2020-03-27 16:09:43 INFO  Define:33 - Define > execute > variableValueStr = 24
+2020-03-27 16:09:43 INFO  Define:43 - Define > execute > END
+2020-03-27 16:09:43 INFO  Calculator:55 - Calculator > executeCommand > END
+2020-03-27 16:09:43 INFO  Calculator:28 - Calculator > executeCommand > BEGIN :: commandLine = DEFINE d 2
+2020-03-27 16:09:43 INFO  Calculator:39 - Calculator > executeCommand > commandName = DEFINE
+2020-03-27 16:09:43 INFO  Calculator:47 - Calculator > executeCommand > commandParameters = d 2
+2020-03-27 16:09:43 INFO  Calculator:49 - Calculator > executeCommand > creating new 'DEFINE' command
+2020-03-27 16:09:43 INFO  CommandFactory:51 - CommandFactory > createCommand > BEGIN
+2020-03-27 16:09:43 INFO  CommandFactory:60 - CommandFactory > createCommand > commandClassName = org.belog.stackcalculator.commandfactory.commands.Define
+2020-03-27 16:09:43 INFO  CommandFactory:66 - CommandFactory > createCommand > END :: returning command
+2020-03-27 16:09:43 INFO  Calculator:51 - Calculator > executeCommand > new 'DEFINE' command was created
+2020-03-27 16:09:43 INFO  Define:16 - Define > execute > BEGIN
+2020-03-27 16:09:43 INFO  Define:32 - Define > execute > variableName = d
+2020-03-27 16:09:43 INFO  Define:33 - Define > execute > variableValueStr = 2
+2020-03-27 16:09:43 INFO  Define:43 - Define > execute > END
+2020-03-27 16:09:43 INFO  Calculator:55 - Calculator > executeCommand > END
+2020-03-27 16:09:43 INFO  Calculator:28 - Calculator > executeCommand > BEGIN :: commandLine = PUSH a
+2020-03-27 16:09:43 INFO  Calculator:39 - Calculator > executeCommand > commandName = PUSH
+2020-03-27 16:09:43 INFO  Calculator:47 - Calculator > executeCommand > commandParameters = a
+2020-03-27 16:09:43 INFO  Calculator:49 - Calculator > executeCommand > creating new 'PUSH' command
+2020-03-27 16:09:43 INFO  CommandFactory:51 - CommandFactory > createCommand > BEGIN
+2020-03-27 16:09:43 INFO  CommandFactory:60 - CommandFactory > createCommand > commandClassName = org.belog.stackcalculator.commandfactory.commands.Push
+2020-03-27 16:09:43 INFO  CommandFactory:66 - CommandFactory > createCommand > END :: returning command
+2020-03-27 16:09:43 INFO  Calculator:51 - Calculator > executeCommand > new 'PUSH' command was created
+2020-03-27 16:09:43 INFO  Push:18 - Push > execute > BEGIN
+2020-03-27 16:09:43 INFO  Push:28 - Push > execute > END
+2020-03-27 16:09:43 INFO  Calculator:55 - Calculator > executeCommand > END
+2020-03-27 16:09:43 INFO  Calculator:28 - Calculator > executeCommand > BEGIN :: commandLine = PUSH b
+2020-03-27 16:09:43 INFO  Calculator:39 - Calculator > executeCommand > commandName = PUSH
+2020-03-27 16:09:43 INFO  Calculator:47 - Calculator > executeCommand > commandParameters = b
+2020-03-27 16:09:43 INFO  Calculator:49 - Calculator > executeCommand > creating new 'PUSH' command
+2020-03-27 16:09:43 INFO  CommandFactory:51 - CommandFactory > createCommand > BEGIN
+2020-03-27 16:09:43 INFO  CommandFactory:60 - CommandFactory > createCommand > commandClassName = org.belog.stackcalculator.commandfactory.commands.Push
+2020-03-27 16:09:43 INFO  CommandFactory:66 - CommandFactory > createCommand > END :: returning command
+2020-03-27 16:09:43 INFO  Calculator:51 - Calculator > executeCommand > new 'PUSH' command was created
+2020-03-27 16:09:43 INFO  Push:18 - Push > execute > BEGIN
+2020-03-27 16:09:43 INFO  Push:28 - Push > execute > END
+2020-03-27 16:09:43 INFO  Calculator:55 - Calculator > executeCommand > END
+2020-03-27 16:09:43 INFO  Calculator:28 - Calculator > executeCommand > BEGIN :: commandLine = PUSH c
+2020-03-27 16:09:43 INFO  Calculator:39 - Calculator > executeCommand > commandName = PUSH
+2020-03-27 16:09:43 INFO  Calculator:47 - Calculator > executeCommand > commandParameters = c
+2020-03-27 16:09:43 INFO  Calculator:49 - Calculator > executeCommand > creating new 'PUSH' command
+2020-03-27 16:09:43 INFO  CommandFactory:51 - CommandFactory > createCommand > BEGIN
+2020-03-27 16:09:43 INFO  CommandFactory:60 - CommandFactory > createCommand > commandClassName = org.belog.stackcalculator.commandfactory.commands.Push
+2020-03-27 16:09:43 INFO  CommandFactory:66 - CommandFactory > createCommand > END :: returning command
+2020-03-27 16:09:43 INFO  Calculator:51 - Calculator > executeCommand > new 'PUSH' command was created
+2020-03-27 16:09:43 INFO  Push:18 - Push > execute > BEGIN
+2020-03-27 16:09:43 INFO  Push:28 - Push > execute > END
+2020-03-27 16:09:43 INFO  Calculator:55 - Calculator > executeCommand > END
+2020-03-27 16:09:43 INFO  Calculator:28 - Calculator > executeCommand > BEGIN :: commandLine = /
+2020-03-27 16:09:43 INFO  Calculator:39 - Calculator > executeCommand > commandName = /
+2020-03-27 16:09:43 INFO  Calculator:47 - Calculator > executeCommand > commandParameters = 
+2020-03-27 16:09:43 INFO  Calculator:49 - Calculator > executeCommand > creating new '/' command
+2020-03-27 16:09:43 INFO  CommandFactory:51 - CommandFactory > createCommand > BEGIN
+2020-03-27 16:09:43 INFO  CommandFactory:60 - CommandFactory > createCommand > commandClassName = org.belog.stackcalculator.commandfactory.commands.Div
+2020-03-27 16:09:43 INFO  CommandFactory:66 - CommandFactory > createCommand > END :: returning command
+2020-03-27 16:09:43 INFO  Calculator:51 - Calculator > executeCommand > new '/' command was created
+2020-03-27 16:09:43 INFO  Div:19 - Div > execute > BEGIN
+2020-03-27 16:09:43 INFO  Div:44 - Div > execute > operation result: 72.0 / 24.0 = 3.0
+2020-03-27 16:09:43 INFO  Div:48 - Div > execute > END
+2020-03-27 16:09:43 INFO  Calculator:55 - Calculator > executeCommand > END
+2020-03-27 16:09:43 INFO  Calculator:28 - Calculator > executeCommand > BEGIN :: commandLine = PUSH d
+2020-03-27 16:09:43 INFO  Calculator:39 - Calculator > executeCommand > commandName = PUSH
+2020-03-27 16:09:43 INFO  Calculator:47 - Calculator > executeCommand > commandParameters = d
+2020-03-27 16:09:43 INFO  Calculator:49 - Calculator > executeCommand > creating new 'PUSH' command
+2020-03-27 16:09:43 INFO  CommandFactory:51 - CommandFactory > createCommand > BEGIN
+2020-03-27 16:09:43 INFO  CommandFactory:60 - CommandFactory > createCommand > commandClassName = org.belog.stackcalculator.commandfactory.commands.Push
+2020-03-27 16:09:43 INFO  CommandFactory:66 - CommandFactory > createCommand > END :: returning command
+2020-03-27 16:09:43 INFO  Calculator:51 - Calculator > executeCommand > new 'PUSH' command was created
+2020-03-27 16:09:43 INFO  Push:18 - Push > execute > BEGIN
+2020-03-27 16:09:43 INFO  Push:28 - Push > execute > END
+2020-03-27 16:09:43 INFO  Calculator:55 - Calculator > executeCommand > END
+2020-03-27 16:09:43 INFO  Calculator:28 - Calculator > executeCommand > BEGIN :: commandLine = -
+2020-03-27 16:09:43 INFO  Calculator:39 - Calculator > executeCommand > commandName = -
+2020-03-27 16:09:43 INFO  Calculator:47 - Calculator > executeCommand > commandParameters = 
+2020-03-27 16:09:43 INFO  Calculator:49 - Calculator > executeCommand > creating new '-' command
+2020-03-27 16:09:43 INFO  CommandFactory:51 - CommandFactory > createCommand > BEGIN
+2020-03-27 16:09:43 INFO  CommandFactory:60 - CommandFactory > createCommand > commandClassName = org.belog.stackcalculator.commandfactory.commands.Minus
+2020-03-27 16:09:43 INFO  CommandFactory:66 - CommandFactory > createCommand > END :: returning command
+2020-03-27 16:09:43 INFO  Calculator:51 - Calculator > executeCommand > new '-' command was created
+2020-03-27 16:09:43 INFO  Minus:19 - Minus > execute > BEGIN
+2020-03-27 16:09:43 INFO  Minus:39 - Minus > execute > operation result: 3.0 - 2.0 = 1.0
+2020-03-27 16:09:43 INFO  Minus:43 - Minus > execute > END
+2020-03-27 16:09:43 INFO  Calculator:55 - Calculator > executeCommand > END
+2020-03-27 16:09:43 INFO  Calculator:28 - Calculator > executeCommand > BEGIN :: commandLine = *
+2020-03-27 16:09:43 INFO  Calculator:39 - Calculator > executeCommand > commandName = *
+2020-03-27 16:09:43 INFO  Calculator:47 - Calculator > executeCommand > commandParameters = 
+2020-03-27 16:09:43 INFO  Calculator:49 - Calculator > executeCommand > creating new '*' command
+2020-03-27 16:09:43 INFO  CommandFactory:51 - CommandFactory > createCommand > BEGIN
+2020-03-27 16:09:43 INFO  CommandFactory:60 - CommandFactory > createCommand > commandClassName = org.belog.stackcalculator.commandfactory.commands.Mult
+2020-03-27 16:09:43 INFO  CommandFactory:66 - CommandFactory > createCommand > END :: returning command
+2020-03-27 16:09:43 INFO  Calculator:51 - Calculator > executeCommand > new '*' command was created
+2020-03-27 16:09:43 INFO  Mult:19 - Mult > execute > BEGIN
+2020-03-27 16:09:43 INFO  Mult:39 - Mult > execute > operation result: 5.0 * 1.0 = 5.0
+2020-03-27 16:09:43 INFO  Mult:43 - Mult > execute > END
+2020-03-27 16:09:43 INFO  Calculator:55 - Calculator > executeCommand > END
+2020-03-27 16:09:43 INFO  Calculator:28 - Calculator > executeCommand > BEGIN :: commandLine = SQRT
+2020-03-27 16:09:43 INFO  Calculator:39 - Calculator > executeCommand > commandName = SQRT
+2020-03-27 16:09:43 INFO  Calculator:47 - Calculator > executeCommand > commandParameters = 
+2020-03-27 16:09:43 INFO  Calculator:49 - Calculator > executeCommand > creating new 'SQRT' command
+2020-03-27 16:09:43 INFO  CommandFactory:51 - CommandFactory > createCommand > BEGIN
+2020-03-27 16:09:43 INFO  CommandFactory:60 - CommandFactory > createCommand > commandClassName = org.belog.stackcalculator.commandfactory.commands.Sqrt
+2020-03-27 16:09:43 INFO  CommandFactory:66 - CommandFactory > createCommand > END :: returning command
+2020-03-27 16:09:43 INFO  Calculator:51 - Calculator > executeCommand > new 'SQRT' command was created
+2020-03-27 16:09:43 INFO  Sqrt:19 - Sqrt > execute > BEGIN
+2020-03-27 16:09:43 INFO  Sqrt:44 - Sqrt > execute > operation result: SQRT(5.0) = 2.23606797749979
+2020-03-27 16:09:43 INFO  Sqrt:48 - Sqrt > execute > END
+2020-03-27 16:09:43 INFO  Calculator:55 - Calculator > executeCommand > END
+2020-03-27 16:09:43 INFO  Calculator:28 - Calculator > executeCommand > BEGIN :: commandLine = PRINT
+2020-03-27 16:09:43 INFO  Calculator:39 - Calculator > executeCommand > commandName = PRINT
+2020-03-27 16:09:43 INFO  Calculator:47 - Calculator > executeCommand > commandParameters = 
+2020-03-27 16:09:43 INFO  Calculator:49 - Calculator > executeCommand > creating new 'PRINT' command
+2020-03-27 16:09:43 INFO  CommandFactory:51 - CommandFactory > createCommand > BEGIN
+2020-03-27 16:09:43 INFO  CommandFactory:60 - CommandFactory > createCommand > commandClassName = org.belog.stackcalculator.commandfactory.commands.Print
+2020-03-27 16:09:43 INFO  CommandFactory:66 - CommandFactory > createCommand > END :: returning command
+2020-03-27 16:09:43 INFO  Calculator:51 - Calculator > executeCommand > new 'PRINT' command was created
+2020-03-27 16:09:43 INFO  Print:18 - Print > execute > BEGIN
+2020-03-27 16:09:43 INFO  Print:28 - Print > execute > END
+2020-03-27 16:09:43 INFO  Calculator:55 - Calculator > executeCommand > END
+2020-03-27 16:09:43 INFO  Calculator:28 - Calculator > executeCommand > BEGIN :: commandLine = babube
+2020-03-27 16:09:43 INFO  Calculator:39 - Calculator > executeCommand > commandName = babube
+2020-03-27 16:09:43 INFO  Calculator:47 - Calculator > executeCommand > commandParameters = 
+2020-03-27 16:09:43 INFO  Calculator:49 - Calculator > executeCommand > creating new 'babube' command
+2020-03-27 16:09:43 INFO  CommandFactory:51 - CommandFactory > createCommand > BEGIN
+2020-03-27 16:09:43 ERROR CommandFactory:56 - CommandFactory > createCommand > NO SUCH A COMMAND :: babube
+2020-03-27 16:09:43 INFO  Main:23 - Main > main > END

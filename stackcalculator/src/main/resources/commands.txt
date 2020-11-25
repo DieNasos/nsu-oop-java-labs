@@ -1,0 +1,15 @@
+// SQRT(5 * (72 / 24 - 2))
+DEFINE a 5
+DEFINE b 72
+DEFINE c 24
+DEFINE d 2
+PUSH a
+PUSH b
+PUSH c
+/
+PUSH d
+-
+*
+SQRT
+PRINT
+babube
